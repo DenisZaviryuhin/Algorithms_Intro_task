@@ -21,7 +21,7 @@ public class Main01 {
         }
         System.out.println("Sorted prices in " + CURRENCY + " :" );
         for (double price : prices) {
-            System.out.print(price + ", ");
+            System.out.print(price + " ");
         }
         sum = 0;
         for (double price : prices) {
