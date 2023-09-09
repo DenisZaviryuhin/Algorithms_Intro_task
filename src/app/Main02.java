@@ -31,8 +31,8 @@ public class Main02 {
 
     private static double getAveragePrice(double[] prices) {
        double sum = 0.0;
-        for (double price1 : prices) {
-            sum += price1;
+        for (double price : prices) {
+            sum += price;
         }
         return sum / prices.length;
     }
