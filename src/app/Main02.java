@@ -11,7 +11,6 @@ public class Main02 {
         getOutput(getAveragePrice(getSortedPrices(prices)));
 
     }
-
     private static double[] getSortedPrices(double[] prices) {
         for (int i = 0; i < prices.length; i++) {
             for (int b = 1; b < (prices.length - 1); b++) {
@@ -28,7 +27,6 @@ public class Main02 {
         }
         return prices;
     }
-
     private static double getAveragePrice(double[] prices) {
        double sum = 0.0;
         for (double price : prices) {
@@ -36,7 +34,6 @@ public class Main02 {
         }
         return sum / prices.length;
     }
-
     private static void getOutput(double average) {
         System.out.printf("\nAverage price for all period : %.2f %s", average ,CURRENCY);
 

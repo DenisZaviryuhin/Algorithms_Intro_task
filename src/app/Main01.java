@@ -25,11 +25,10 @@ public class Main01 {
         }
         sum = 0;
         for (double price : prices) {
-            sum += price;}
+            sum += price;
+        }
            double average = sum / prices.length;
             System.out.printf("\nAverage price for all period : %.2f %s" ,average,CURRENCY);
-
-
     }
 }
 
